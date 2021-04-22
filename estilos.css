@@ -1,0 +1,714 @@
+body {
+    background: #f8af75 !important;
+}
+h1 span{
+    width: 100%;
+    display: flex;
+    margin-bottom: -1.5rem;
+    margin-top: 2.5rem;
+    font-size: 2.688rem;
+    font-weight: 700;
+    background: #9fd4ca;
+    color: #354355;
+    line-height: 3rem;
+    animation: slideInLeft 0.75s ease-in-out both;
+	animation-delay: 0.75s;
+}
+
+@keyframes slideInLeft{
+	0% {
+    	opacity: 0;
+    	transform: translateX(-300px);
+	}
+	100% {
+    	opacity: 1;
+    	transform: translateX(0);
+	}
+}
+
+h1, .h1 {
+    text-align: justify;
+}
+
+h1 p{
+    color: #fff;
+}
+h1 a{
+    justify-content: left;
+}
+.bg-dark {
+    background-color: #f9a470 !important;
+}
+img{
+    margin-top: 2.5rem;
+    min-width: 350px;
+    min-height: auto; 
+}
+#sobre-mi{
+    width: 88%;
+    margin-left: 12%;
+    padding: 0 2rem 1rem 2rem;
+    box-shadow: -30px 0 0 0px #9fd4ca, -60px 0 0 0px #f48e4f;
+    background-position: 1.5em 60%, 1.5rem 2rem, top right;
+    background-size: 92% 45%, 39% 90%, 3.438rem 3.438rem;
+    display: flex;
+    background: linear-gradient(to bottom left, #f8af75 3%, #fff 3%);
+    min-height: 45rem;
+    width: 65%;
+    color: #426175;
+    flex-direction: column;
+    margin-left: 35%;
+    margin-bottom: 8rem;
+    padding: 2rem;
+    border-radius: 20px 0 0 20px;
+    box-shadow: -200px 0 0 0px #9fd4ca, -230px 0 0 0px #f48e4f;
+    font-family: 'Lato', sans-serif;
+    line-height: 1.5;
+    text-rendering: optimizeLegibility;
+    padding-left: 15rem;
+    text-align: justify;
+    background: url("https://josecarlosalmansa.com/img/fondo-esquina-sobre-mi.png");
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-color: white;
+    border-bottom: 1px solid #F8AF75;
+}
+#sobre-mi h1{
+    color:#f8af75;
+    line-height: 1.7;
+    font-weight: 500;
+    text-transform: none;
+    width: 34%;
+    background: url("https://josecarlosalmansa.com/img/fondo-servicios.png");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    border-bottom: 1px solid #9fd4ca;
+}
+#sobre-mi h2{
+    color: #426175;
+    padding: 0;
+    font-weight: normal;
+    border-bottom: 1px solid #f8af75;
+    margin-bottom: 1rem;
+    width: 60%;
+}
+#sobre-mi .sobre-mi{
+    
+    font-weight: normal;
+    font-size: 2.2rem;
+    color: #2c4456;
+    line-height: 1.3;
+    margin-bottom: 1rem;
+    background: url("https://josecarlosalmansa.com/img/fondo-servicios.png");
+    background-repeat: no-repeat;
+    background-position: left 1rem;
+    text-align: left;
+}
+#habilidades {
+    display: flex;
+    min-width: auto;
+    background: url("https://josecarlosalmansa.com/img/fondo-esquina-habilidades.png"), url("https://josecarlosalmansa.com/img/fondo-habilidades.png");
+    background-repeat: no-repeat;
+    background-color: #343233;
+    background-position: top right, 95% center;
+    flex-grow: 1;
+    flex-direction: column;
+    padding: 2rem 4rem 1rem;
+    padding-left: 5%;
+    font-family: var(--open-sans);
+}
+#habilidades h1 {
+    line-height: 2.5rem;
+    color: #efeae1;
+    font-size: 1.5rem;
+    background: url("https://josecarlosalmansa.com/img/fondo-h1-habilidades.png");
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    margin-bottom: 2rem;
+}
+#habilidades h2, #habilidades h3, #habilidades h4, #habilidades h5 {
+    margin-top: 0;
+    margin-bottom: 0.25em;
+    font-weight: 500;
+    font-size: 1.2em;
+    color: #9fd4ca;
+    text-align: initial;
+}
+#habilidades ul li {
+    margin-left: 3rem;
+    font-weight: 300;
+    font-size: 1rem;
+    color: navajowhite;
+    font-family: 'Lato', sans-serif;
+    line-height: 1.5;
+    text-rendering: optimizeLegibility;
+}
+ol, ul, dl {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    text-align: justify;
+}
+
+a {
+    color: #f48e4f !important;
+}
+/*=====curriculum=====*/
+
+/*=============================================
+PORTAFOLIO
+=============================================*/
+#portafolio {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: var(--altura-min);
+    padding: 2rem 4rem 7rem;
+    margin: 1rem auto 1rem;
+    background: url("https://josecarlosalmansa.com/img/fondo-esquina-portafolio.png");
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-color: #9FD4CA;
+    border-bottom-right-radius: 20px;
+    padding-bottom: 6rem;
+    border-radius: 20px 0 0 20px;
+    margin-top: -1%;
+}
+#portafolio h1, #portafolio h2 {
+    line-height: 1.7;
+    font-weight: 900;
+    text-transform: none;
+    background: url("https://josecarlosalmansa.com/img/fondo-h-portafolio.png");
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    margin: 2.25rem 0 1.85rem;
+    color: #354355;
+}
+/*===========cv======*/
+p.curriculum{
+	background-color: #F8AF75;
+	padding: 0.8rem;
+	margin-left: 0.2rem;
+	font-weight: bold;
+	border-radius: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 3rem;
+	cursor: pointer;
+	width: 12rem;
+	transition: all 400ms ease;
+} 
+
+p.curriculum:hover{
+	background-color:white;		
+}
+
+p.curriculum a{   
+    display: flex;    
+    justify-content: center;	
+    align-items: center;
+}
+
+p.curriculum:hover a{
+	background: none;	
+	color: #46D1C0;		
+}
+
+#habilidades p.curriculum a i.descargar{
+	background: none;
+	color: white;	
+}
+
+#habilidades p.curriculum:hover > a i.descargar{
+	color: #46D1C0;
+}
+
+#img-modal-grande {
+width: 30%;
+}
+.titulo-port{
+	font-size: 1.5rem;
+	font-weight: 400;
+}
+
+article.portafolio-2012{
+	display: flex;
+}
+article.portafolio-2012 h3{
+	display: block;
+}
+ul.galeria-img-port{
+  	flex: 1 0 calc(33% - 1rem);
+  	display: flex;
+  	flex-direction: column;
+  	align-items: center;
+}
+
+ul.galeria-img-port li{			
+	position: relative;	
+	margin-bottom: -0.25rem;	
+}
+
+ul.galeria-img-port li:last-child{	
+	margin-bottom: 0;
+	margin-bottom: -0.25rem
+}	
+
+ul.galeria-img-port li:hover .overlayBottom {
+    height: 100%;
+    opacity: 1;   
+    cursor: pointer;
+  	background: #22303A; 
+}
+
+article.portafolio-2012 img{
+	cursor: pointer;
+  	transition: 0.3s;  	
+}
+
+article.portafolio-2012 img:hover{	
+	opacity: 0.8;	
+}
+
+.overlay-img {
+    position: absolute;
+    opacity: 0;    
+}
+
+.overlayBottom{
+   
+    width: 100%;
+    height: 0px;
+    bottom: -30px;
+    left:0px;
+    background-color: #008CBA;
+    transition: .4s ease; 
+}
+
+.text-port {
+    color: white;
+    font-size: 20px;
+    font-size: 1.150rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    padding: 1rem;
+    transform: translate(-50%, -50%);
+    font-weight: 400;
+    opacity: 1;
+}
+
+
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */ 
+  z-index: 1; /* Sit on top */ 
+  width: 0%;
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+  padding: 1rem;
+  padding-bottom: 5rem;/*Controlar luego*/
+  position: fixed;
+  flex-direction: column; 
+  left: 0;
+  top: 0;
+  font-size: 1.1rem;
+}
+
+.modal span:hover{
+	cursor: pointer;
+	font-size: 1.1rem;
+	opacity: 0.8;	
+}
+
+/* Modal Content (image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  
+  z-index: 99;
+}
+
+/* Caption of Modal Image */
+#caption {  
+  margin: 1rem;  
+  display: flex;
+  text-align: center;  
+  padding: 1rem;   
+  background: #EFEAE1;  
+  color: #426175; 
+  font-size: 0.8313rem;      
+  justify-content: center;
+  align-self: center;
+  font-family: 'Lato', sans-serif;
+  border-radius: 5px;
+}
+
+/*=============================================
+CONTACTO
+=============================================*/
+
+#contacto{
+	background: #1e2a33;
+	min-height: var(--altura-min);		
+	padding: 8rem 1rem;	   
+    animation: movimiento 15s infinite linear alternate; 
+    background-image: url("https://josecarlosalmansa.com/img/caspar-camille-rubin-fPkvU7RDmCo-unsplash.jpg"); 
+    background-size: 112%;    
+    animation: movimiento 9s infinite ease-out alternate;   
+    display: flex;
+    align-items: center;    
+    z-index: 1;    
+    justify-content: center; 
+
+}
+
+@keyframes movimiento{   	
+	0%{
+		background-position: bottom left;
+    }   
+    30%{		
+		background-position: top right;
+    }
+    60%{
+    	background-position: top left;
+    }
+    100%{
+    	background-position: bottom right;
+    }
+}
+
+#contacto img{
+	display: flex;		
+	justify-content: center;	
+	flex-basis: 50%;
+	flex-shrink: 0;
+	flex:0 1 30%;	
+	align-self: center;
+	align-content: center;
+	align-items: center;
+}
+
+#contacto i{	
+	font-size: 18rem;	
+	color: #f5f5eb;	
+	display: flex;		
+	justify-content: center;	
+	flex-basis: 50%;		
+	align-items: center;	
+}
+
+#contacto h1{		
+	line-height: 1.7;
+	font-weight: 900;
+	text-transform: none;	
+	background: url(../img/fondo-h-portafolio.png);
+  	background-repeat: no-repeat;  	
+	background-position: left bottom;	
+	margin-left: 2rem;
+	width: 40%;
+	color: #354355;
+}
+
+/*=============================================
+FORMULARIO DE CONTACTO
+=============================================*/
+
+.container{		
+	background: url("https://josecarlosalmansa.com/img/fondo-esquina-contacto.png");
+	background-repeat: no-repeat;
+    background-position: top right;
+	background-color: #9fd4ca;	
+	border-radius: 20px;
+	border-bottom-right-radius: 0;
+	border-top-right-radius: 0;
+	box-shadow: -40px 0 0 0px #F9A470, -50px 0 0 0px #F5F5EB;	
+	flex-basis: 45%;
+	overflow: hidden;	
+	padding: 2rem 0.625rem 4rem;	
+	margin: 0 3rem 0 2rem;
+}
+
+.container .formBx{	
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;	
+}
+
+.container .formBx form{
+	position: relative;
+	width: 100%;	
+	padding: 2rem;
+}
+
+.container .formBx form h2{
+	color: #fff;
+	font-weight: 500;
+	font-size: 2em;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin-bottom: 40px;
+}
+
+.container .formBx form .inputBox{
+	position: relative;
+	margin-bottom: 40px;
+}
+
+.container .formBx form .inputBox:last-child{
+	margin-bottom: 0;
+}
+
+.container .formBx form .inputBox input, .container .formBx form .inputBox textarea{
+	position: relative;
+	background: transparent;
+	outline: none;
+	border: none;
+	width: 100%;
+	color: #fff;
+	padding-bottom: 10px;
+	font-size: 16px;
+	letter-spacing: 1px;
+	font-weight: 300;
+	border-bottom: 2px solid rgba(255,255,255, 0.5);
+	resize: none;
+}
+
+.container .formBx form .inputBox textarea{
+	height: 100px;
+}
+
+.container .formBx form .inputBox input[type="submit"]{	
+	background: #354355;	
+	cursor: pointer;		
+	border: none;
+	border-radius: 10px;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	font-size: 1.1rem;
+	text-align: center;
+	display: flex;	
+	justify-content: space-around;
+	align-items: center;
+	padding: 0 20px;
+	min-width: 200px;
+	width: 200px;
+	height: 50px;
+	font-family: Poppins-Medium;
+	font-family: "Open Sans", Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #fff;
+	line-height: 1.2;
+	margin: 0 auto;
+	transition: all 400ms ease;
+}
+
+.container .formBx form .inputBox input[type="submit"]:hover{	
+	background-color: white;
+	color: var(--azul-marino-oscuro);
+}
+
+.container .formBx form .inputBox input[type="submit"]:focus{	
+	background: white;	
+	color: #111;
+	background-color: white;
+	color: var(--azul-marino-oscuro);
+}
+
+.container .formBx form .inputBox span{
+	position: absolute;
+	left: 0;
+	font-size: 16px;
+	font-weight: 300;
+	display: inline-block;
+	pointer-events: none;
+	letter-spacing: 1px;	
+	color: rgba(44,68,86,0.5);		
+	transition: all 0.2s;
+}
+
+.container .formBx form .inputBox input:focus ~ span, 
+.container .formBx form .inputBox textarea:focus ~ span,
+.container .formBx form .inputBox input:valid ~ span, 
+.container .formBx form .inputBox textarea:valid ~ span{
+	transform: translateY(-24px);		
+	color: #384355;	
+	font-size: 0.938rem;
+}
+
+/*Color del foco #EB2D2B*/
+
+.avisos-form, .error{
+	font-size: 0.875rem;
+	color: white;
+	/*color: #343233;*/
+	margin: 0.2rem;
+	margin-left: 2rem;
+	margin-right: 2rem;	
+	display: flex;
+	flex-basis: 100%;
+
+	/*animation: estiloError 7s linear forwards;
+    -webkit-animation: estiloError 7s linear forwards;	*/
+}
+.avisos-form{
+	margin-top: 1rem;
+}
+
+.container .formBx form .inputBox input:focus, 
+.container .formBx form .inputBox textarea:focus,
+.container .formBx form .inputBox input:valid, 
+.container .formBx form .inputBox textarea:valid{
+	border-bottom-color: #fff;
+}
+
+@media (max-width: 991px){ /*revisar*/
+
+	.container .formBx{
+		width: 100%;
+		padding: 0 50px;
+	}
+
+	.container .formBx form{		
+		width: 100%;
+		max-width: 500px;
+		padding: 0;
+	}
+}
+
+/*Scroll Back To Top Button*/
+
+#backBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  bottom: 136px;
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: red; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#backBtn:hover {
+  background-color: #555; 
+}
+
+#back2Top {
+    width: 40px;
+    line-height: 40px;
+    overflow: hidden;
+    z-index: 999;
+    display: none;
+    cursor: pointer;    
+    position: fixed;
+    bottom: 50px;
+    right: 0;
+    background-color: #DDD;
+    color: #555;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+    right: 0.938rem;	
+	bottom: 120px;/*Media altura pie de pÃ¡gina - REVISAR*/
+	border-radius: 5px;
+	background: #F5F5EB;   
+    color:#22303A; 
+	width: 35px;
+    line-height: 35px;
+    opacity: 0.65;
+}
+#back2Top:hover {    
+    background: #F9A470;   
+    color:#22303A;
+    opacity: 1;
+}
+
+/*=============================================
+FOOTER
+=============================================*/
+
+footer{	
+	background: #22303A;	
+	min-height: 8.5rem;
+	color: white;	
+	padding: 1rem;
+	display: flex;	
+	justify-content: space-around;
+	font-family: 'Lato', sans-serif;
+	line-height: 1.5;
+	text-rendering: optimizeLegibility;	
+	flex-wrap: wrap;
+}
+
+.datos-contacto{	
+	display: flex;	
+	flex-basis: 20%;
+	flex: 1 0 calc(50% - 1rem); 
+	align-items: center;
+	justify-content: center; 	
+	margin-bottom: 0.725rem;
+}
+
+article.datos-contacto ul{
+	display: flex;	
+	flex-direction: column;
+	justify-content: center;		
+	align-items: flex-start;
+}
+
+article.datos-contacto ul li{	
+	color: #9FD4CA;		
+}
+
+/*span.telefono-movil{	
+	color: #9FD4CA !important;		
+	text-decoration: none;
+	border: 1px solid orange;
+}*/
+
+/*article.datos-contacto ul:first-child{
+	border: 11px solid #9FD4CA;
+	color: #9FD4CA;	
+}
+*/
+article.datos-contacto ul li i{	
+	padding: 0.25rem 0.1rem;
+	font-size: 1.2rem;
+	width: 1.8rem;
+	justify-content: center;
+	display: inline-flex;
+	display: -ms-flexbox;
+	border-radius: 5px;		
+	background: #9FD4CA;
+	margin: 0.2rem 0.5rem;
+	color: #354355;	
+}
+
+article.datos-contacto ul li i.arroba{
+	background: none;	
+	color: #9FD4CA;
+	font-size: 0.875rem;
+	margin: 0;
+	width: 1rem;
+}
+
+aside.datos-contacto{	
+	justify-content: space-around;	
+}
+
+aside.datos-contacto ul {
+    display: flex;
+    justify-content: center;         
+    flex-basis: 70%;	
+}
